@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ShortUrl = require('./models/shortUrl')
 const app = express();
 
-mongoose.connect('mongodb://0.0.0.0:27017/url-Shortner',{
+mongoose.connect('mongodb://urlshortner-vert.vercel.app/url-Shortner',{
        useNewUrlParser: true, 
        useUnifiedTopology : true,
 })
